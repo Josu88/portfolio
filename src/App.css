@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-image: url("../public/FondoPortfolio.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.app Header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.app Header nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.app Header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+figure {
+  margin-left: 1rem;
+}
+
+figure.FigFoto img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  object-fit: cover; /*Asi no se deforma la imagen*/
+  box-shadow: 2px 2px 2px 2px white;
+}
+
+.app img.imgMailto,
+img.imgLinkedIn {
+  width: 5rem;
+  height: 5rem;
+  margin-top: 1rem;
+}
+
+.app section.AboutMePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  color: white;
+}
+
+.app section.ContactPage {
+  text-align: center;
+}
+
+.app section.ContactPage h2 {
+  margin: 2rem;
+  color: white;
+}
+
+.app section.ContactPage button {
+  margin: 1rem;
+}
+
+.app .important {
+  font-weight: 900;
+}
+
+article.PersInf p {
+  width: 70%;
+}
+article.PersInf a {
+  text-decoration: none;
+  color: crimson;
+}
+
+article.PersInf > h2,
+p {
+  margin: 2rem 0rem;
+}
+
+section.ContactPage {
+  display: grid;
+  justify-content: center;
+}
+
+section.ContactPage h2 {
+  display: flex;
+  align-items: center;
+}
+
+section.ContactPage article.ButtonBarContact {
+  background-color: lightgrey;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  width: 28rem;
+  height: 8rem;
+}
+
+section.ContactPage article.ButtonBarContact a {
+  text-decoration: none;
+  color: black;
+}
+
+section.ProyectsList {
+  display: flex;
+  gap: 1rem;
+}
+
+article.Proyect {
+  background-color: lightgrey;
+  border: 1px solid black;
+  width: 18.2rem;
+  height: 34rem;
+  margin: 0 2rem;
+}
+
+section.ProyectsList {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+section.ProyectsPage h2 {
+  margin: 1rem;
+  text-align: center;
+  color: white;
+}
+
+article.Proyect p {
+  text-align: center;
+}
+
+article.Proyect p.Description {
+  margin: 0.1rem;
+}
+
+article.Proyect p.ProyectName {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+article.Proyect p.ProyUrl1 {
+  margin: 6rem;
+}
+
+article.Proyect p.ProyUrl3 {
+  margin: 4rem;
+}
+
+article.Proyect p.ProyUrl4 {
+  margin: 4.8rem;
+}
+
+article.Proyect p.ProyUrl2 {
+  margin: 3rem;
+}
+
+article.Proyect img.ProyImg {
+  width: 18rem;
+  height: 16rem;
+}
+
+article.Proyect img.ProyImg3 {
+  width: 18.1rem;
+  height: 18rem;
+  margin-bottom: 0.1rem;
+}
+
+article.Proyect img.IconDep,
+img.IconGitHub {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.2rem;
+}
