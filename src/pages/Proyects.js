@@ -72,7 +72,7 @@ export const Proyects = () => {
             Proyecto parecido a un Twitter pero de Noticias.
           </p>
           <p className="ProyUrl3">
-            <Link to="https://noticias-colaborativas-frontend-bhf4jy5hz-josu88.vercel.app">
+            <Link to="https://frontend-notcol.vercel.app">
               <img
                 src="/iconDep.png"
                 alt="DeployProyecto"
