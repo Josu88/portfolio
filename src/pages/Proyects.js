@@ -15,7 +15,7 @@ export const Proyects = () => {
             Proyecto de php que hace consultas a una base de datos de empleados
           </p>
           <p className="ProyUrl5">
-            <Link to="https://relhttps://apiconempphp.000webhostapp.com/oj-js.vercel.app/">
+            <Link to="https://apiconempphp.000webhostapp.com/oj-js.vercel.app/">
               <img
                 src="/iconDep.png"
                 alt="DeployProyecto"
