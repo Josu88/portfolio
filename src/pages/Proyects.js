@@ -5,6 +5,34 @@ export const Proyects = () => {
       <h2>Estos son los Proyectos que he hecho o participado:</h2>
       <section className="ProyectsList">
         <article className="Proyect">
+          <p className="ProyectName">Consultar Empleados en Php</p>
+          <img
+            src="/ConsultasEmpleadosPhp.png"
+            alt="ConsultasEmpleadosPhp"
+            className="ProyImg"
+          />
+          <p className="Descripcion">
+            Proyecto de php que hace consultas a una base de datos de empleados
+          </p>
+          <p className="ProyUrl5">
+            <Link to="https://relhttps://apiconempphp.000webhostapp.com/oj-js.vercel.app/">
+              <img
+                src="/iconDep.png"
+                alt="DeployProyecto"
+                className="IconDep"
+              />
+            </Link>
+            <Link to="https://github.com/Josu88/ConsultasEmpleados/tree/main">
+              <img
+                src="/iconGitHub.png"
+                alt="ProyectoGitHub"
+                className="IconGitHub"
+              />
+            </Link>
+          </p>
+        </article>
+
+        <article className="Proyect">
           <p className="ProyectName">Reloj JavaScript</p>
           <img
             src="/RelojJavaScript.png"
