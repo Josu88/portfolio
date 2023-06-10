@@ -5,7 +5,7 @@ export const Proyects = () => {
       <h2>Estos son los Proyectos que he hecho o participado:</h2>
       <section className="ProyectsList">
         <article className="Proyect">
-          <p className="ProyectName">Consultar Empleados en Php</p>
+          <p className="ProyectName">Consultas Empleados Php</p>
           <img
             src="/ConsultasEmpleadosPhp.png"
             alt="ConsultasEmpleadosPhp"
@@ -23,6 +23,34 @@ export const Proyects = () => {
               />
             </Link>
             <Link to="https://github.com/Josu88/ConsultasEmpleados/tree/main">
+              <img
+                src="/iconGitHub.png"
+                alt="ProyectoGitHub"
+                className="IconGitHub"
+              />
+            </Link>
+          </p>
+        </article>
+
+        <article className="Proyect">
+          <p className="ProyectName">Consultas  Hospital Java</p>
+          <img
+            src="/ConsultasHospitalJava.png"
+            alt="ConsultasHospitalJava"
+            className="ProyImg"
+          />
+          <p className="Descripcion">
+            Proyecto de Java que hace consultas a una base de datos de Hospitales
+          </p>
+          <p className="ProyUrl6">
+            <Link to="">
+              <img
+                src="/iconDep.png"
+                alt="DeployProyecto"
+                className="IconDep"
+              />
+            </Link>
+            <Link to="https://github.com/Josu88/ConsultasHospitalJava">
               <img
                 src="/iconGitHub.png"
                 alt="ProyectoGitHub"
