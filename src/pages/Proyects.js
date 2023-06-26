@@ -43,7 +43,7 @@ export const Proyects = () => {
             Proyecto de Java que hace consultas a una base de datos de Hospitales
           </p>
           <p className="ProyUrl6">
-            <Link to="https://drive.google.com/file/d/1n9tnwKYnTjN_ilYeGnxjNhwlXz0S0xu9/view?usp=drive_link">
+            <Link to="https://drive.google.com/file/d/1tdk-dC_u-CTjEK8abQx2ts6iNNb0cfvX/view?usp=drive_link">
               <img
                 src="/iconDep.png"
                 alt="DeployProyecto"
