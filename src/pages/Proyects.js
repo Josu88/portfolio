@@ -3,7 +3,7 @@ export const Proyects = () => {
   return (
     <section className="ProyectsPage">
       <h2>Estos son los Proyectos que he hecho o participado:</h2>
-      <section className="ProyectsList">
+      <section className="ProyectsList1">
         <article className="Proyect">
           <p className="ProyectName">Consultas Empleados Php</p>
           <img
@@ -33,14 +33,15 @@ export const Proyects = () => {
         </article>
 
         <article className="Proyect">
-          <p className="ProyectName">Consultas  Hospital Java</p>
+          <p className="ProyectName">Consultas Hospital Java</p>
           <img
             src="/ConsultasHospitalJava.png"
             alt="ConsultasHospitalJava"
             className="ProyImg"
           />
           <p className="Descripcion">
-            Proyecto de Java que hace consultas a una base de datos de Hospitales
+            Proyecto de Java que hace consultas a una base de datos de
+            Hospitales
           </p>
           <p className="ProyUrl6">
             <Link to="https://drive.google.com/file/d/1tdk-dC_u-CTjEK8abQx2ts6iNNb0cfvX/view?usp=drive_link">
@@ -116,7 +117,8 @@ export const Proyects = () => {
             </Link>
           </p>
         </article>
-
+      </section>
+      <section className="ProyectsList2">
         <article className="Proyect">
           <p className="ProyectName">Noticias Colaborativas</p>
           <img
@@ -161,6 +163,28 @@ export const Proyects = () => {
               />
             </Link>
             <Link to="https://github.com/Josu88/farmacia">
+              <img
+                src="/iconGitHub.png"
+                alt="ProyectoGitHub"
+                className="IconGitHub"
+              />
+            </Link>
+          </p>
+        </article>
+
+        <article className="Proyect">
+          <p className="ProyectName">Rubiko Basic Docker</p>
+          <img
+            src="/Rubiko-Basic-Docker.png"
+            alt="RuDock"
+            className="ProyImg"
+          />
+          <p className="Descripcion">
+            Aplicación backend creada con nodejs, que será subido a docker y
+            usaremos docker-compose
+          </p>
+          <p className="ProyUrl5">
+            <Link to="https://github.com/Josu88/rubiko-basic-docker/tree/main">
               <img
                 src="/iconGitHub.png"
                 alt="ProyectoGitHub"

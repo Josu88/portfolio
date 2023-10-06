@@ -13,7 +13,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 138vh;
 }
 
 .app Header {
@@ -117,11 +117,6 @@ section.ContactPage article.ButtonBarContact a {
   color: black;
 }
 
-section.ProyectsList {
-  display: flex;
-  gap: 1rem;
-}
-
 article.Proyect {
   background-color: lightgrey;
   border: 1px solid black;
@@ -130,10 +125,17 @@ article.Proyect {
   margin: 0 2rem;
 }
 
-section.ProyectsList {
+section.ProyectsList1,
+section.ProyectsList2 {
   display: flex;
   align-content: center;
   justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+section.ProyectsList2 {
+  gap: 2rem;
 }
 
 section.ProyectsPage h2 {
@@ -171,7 +173,7 @@ article.Proyect p.ProyUrl4 {
 }
 
 article.Proyect p.ProyUrl5 {
-  margin: 6rem;
+  margin: 5rem;
 }
 
 article.Proyect p.ProyUrl6 {
