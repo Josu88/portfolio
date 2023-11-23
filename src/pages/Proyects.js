@@ -44,7 +44,7 @@ export const Proyects = () => {
             Hospitales
           </p>
           <p className="ProyUrl6">
-            <Link to="https://drive.google.com/file/d/1tdk-dC_u-CTjEK8abQx2ts6iNNb0cfvX/view?usp=drive_link">
+            <Link to="https://drive.google.com/file/d/1mUHLzIdCEYQaCGpoXkz8HQYPiWOjlFoy/view?usp=drive_link">
               <img
                 src="/iconDep.png"
                 alt="DeployProyecto"
