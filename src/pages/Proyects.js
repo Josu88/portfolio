@@ -44,13 +44,6 @@ export const Proyects = () => {
             Hospitales
           </p>
           <p className="ProyUrl6">
-            <Link to="https://drive.google.com/file/d/1mUHLzIdCEYQaCGpoXkz8HQYPiWOjlFoy/view?usp=drive_link">
-              <img
-                src="/iconDep.png"
-                alt="DeployProyecto"
-                className="IconDep"
-              />
-            </Link>
             <Link to="https://github.com/Josu88/ConsultasHospitalJava">
               <img
                 src="/iconGitHub.png"
