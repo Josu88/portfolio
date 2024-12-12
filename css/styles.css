@@ -108,6 +108,10 @@ div h3 {
   color: blue;
 }
 
+div h4 {
+  color: blueviolet;
+}
+
 div .p_proy {
   font-size: 16px;
 }
@@ -117,7 +121,7 @@ div img {
   max-height: 400px;
 }
 
-div .div_img img{
+div .div_img img {
   background-color: white;
 }
 
@@ -168,25 +172,28 @@ div.text_proy5 {
   height: 240px;
 }
 
-div .text_proy6{
+div .text_proy6 {
   height: 210px;
 }
 
-div .text_proy7{
+div .text_proy7 {
   height: 190px;
   margin-left: 40px;
 }
 
 div.div_tec {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px;
   justify-content: center;
   align-content: center;
+  margin-bottom: 1rem;
 }
 
 div.div_tec figure {
-  margin: 1rem;
+  width: 80px;
+  height: 80px;
 }
+
 div.div_tec img {
   max-width: 70px;
   max-height: 70px;
@@ -281,6 +288,13 @@ a.en_cv:hover {
   color: azure;
 }
 
+/*Estilos ul y hijos*/
+
+ul img {
+  width: 40px;
+  height: 40px;
+}
+
 /* Estilo básico para la galería */
 figure {
   margin: 0;
@@ -340,15 +354,39 @@ footer div {
   margin-bottom: -2rem;
 }
 footer img {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 /*Media Querys*/
-@media (max-width: 1370px) {
+@media (max-width: 768px) {
+  div.text_proy p,
+  .text_proy h2,
+  .text_proy h3 {
+    font-size: 15px;
+  }
+
   div figure img {
+    width: 100px;
+    height: 100px;
+  }
+
+  div div.text_proy {
+    width: 800px;
+  }
+
+  p.p_proy {
+    width: 300px;
+  }
+
+  p.p_proy_icons img {
     width: 40px;
     height: 40px;
+  }
+
+  ul img {
+    width: 30px;
+    height: 30px;
   }
 
   #gallery {
@@ -359,10 +397,38 @@ footer img {
     width: 300px;
     height: 300px;
   }
-}
 
-@media (max-width: 1378px) {
   form.contact-form {
     background-color: #472b80;
+  }
+
+  div.div_img img {
+    width: 300px;
+    height: 200px;
+  }
+
+  div.text_proy {
+    width: 300px;
+    height: 200px;
+  }
+
+  div.text_proy1 {
+    height: 150px;
+  }
+
+  div.text_proy2 {
+    height: 160px;
+  }
+
+  div.text_proy3 {
+    height: 170px;
+  }
+  div.text_proy4 {
+    height: 160px;
+  }
+
+  div.text_proy7 {
+    height: 170px;
+    margin-left: 15px;
   }
 }
