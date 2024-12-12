@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de email</title>
+    <!--Descripción y palabras clave-->
+    <meta name="description" content="Curriculum Online" />
+    <meta
+      name="keywords"
+      content="Curriculum, Curriculum Online,Curriculum Josue, Curriculum Online Josue,Curriculum Josué,Curriculum Online Josué,Josue, Josué,Curriculum josue,Curriculum Online josue,Curriculum josué,Curriculum Online josué"
+    />
+    <!--Autor y Copyright-->
+    <meta name="author" content="Josué Rodríguez Iglesias" />
+    <meta name="copyright" content="derecho de autor,2024" />
+    <!--robots-->
+    <meta name="robots" content="index,follow" />
+    <!--lenguaje-->
+    <meta name="lenguaje" content="es" />
+    <!--Icono de pagina-->
+    <!--OBLIGATORIO-->
+    <link rel="icon" href="ico/favicon.ico" type="image/x-icon" />
+    <!--Css propio-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Css de BOOTSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!--JavaScript de BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Contenedor del header-->
+    <div id="header"></div>
+    <section class="principal sect-form">
+      <!--Titulo h3 del formulario-->
+      <h1 class="text-center mb-4">Contacto</h1>
+      <!--Formulario de Contacto-->
+      <form action="php/enviar_correo.php" class="contact-form sepia">
+          <label for="nombre" class="form-label">Nombre</label><br />
+          <input
+            type="text"
+            class="from-control"
+            name="nombre"
+            id="nombre"
+            placeholder="Escribe tu nombre"
+            required
+          /><br />
+          <label for="email" class="form-label">Correo Electronico</label><br />
+          <input
+            type="email"
+            class="from-control"
+            name="email"
+            id="email"
+            placeholder="Escribe tu email"
+            required
+          /><br />
+          <label for="messahe" class="form-label">Mensaje</label><br />
+          <textarea
+            class="from-control"
+            name="mensaje"
+            id="mensaje"
+            rows="3"
+            placeholder="Tu Mensage"
+            required
+          ></textarea
+          ><br />
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+      </form>
+    </section>
+    <!--Contenedor de footer-->
+    <div id="footer"></div>
+    <!--Cargamos el script-->
+    <script src="js/script_hf.js"></script>
+  </body>
+</html>
