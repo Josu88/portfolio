@@ -361,7 +361,7 @@ footer img {
 
 /*Media Querys*/
 /*Media Query para ancho de pantalla como maximo de 768px*/
-@media (max-width: 768px) {
+@media (max-width: 1067px) {
   /*p y hijos*/
   p.p_proy {
     width: 180px;
