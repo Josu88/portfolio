@@ -33,11 +33,12 @@
   <body>
     <!-- Contenedor del header-->
     <div id="header"></div>
-    <section class="principal sect-form">
-      <!--Titulo h3 del formulario-->
-      <h1 class="text-center mb-4">Contacto</h1>
-      <!--Formulario de Contacto-->
-      <form action="php/enviar_correo.php" class="contact-form sepia">
+    <main role="main">
+      <section class="principal sect-form">
+        <!--Titulo h3 del formulario-->
+        <h1 class="text-center mb-4">Contacto</h1>
+        <!--Formulario de Contacto-->
+        <form action="php/enviar_correo.php" class="contact-form sepia">
           <label for="nombre" class="form-label">Nombre</label><br />
           <input
             type="text"
@@ -56,7 +57,7 @@
             placeholder="Escribe tu email"
             required
           /><br />
-          <label for="messahe" class="form-label">Mensaje</label><br />
+          <label for="mensaje" class="form-label">Mensaje</label><br />
           <textarea
             class="from-control"
             name="mensaje"
@@ -66,9 +67,10 @@
             required
           ></textarea
           ><br />
-        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-      </form>
-    </section>
+          <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+      </section>
+    </main>
     <!--Contenedor de footer-->
     <div id="footer"></div>
     <!--Cargamos el script-->

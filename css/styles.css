@@ -72,9 +72,13 @@ div h3 {
 #header,
 #footer {
   font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 200px;
+  font-weight: 200;
   font-style: normal;
+}
+
+/*Estilos del main*/
+main {
+  flex: 1; /* Toma todo el espacio disponible */
 }
 
 /*Estilos de las secciones*/
@@ -83,14 +87,13 @@ section.principal {
   background-color: #472b80;
   color: white;
   font-family: "Cormorant", serif;
-  font-optical-sizing: auto;
-  font-weight: 150px;
+  font-weight: 150;
   font-style: normal;
   padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
   justify-items: center;
-  flex: 1; /* Toma todo el espacio disponible */
+  height: 100%;
 }
 
 /*Estilos div y hijos*/
@@ -100,7 +103,7 @@ div {
 
 div h1 {
   font-family: "Satisfy", cursive;
-  font-weight: 200px;
+  font-weight: 200;
   font-style: normal;
   font-weight: bolder;
 }
@@ -112,7 +115,6 @@ div h2 {
 div h3 {
   color: blue;
 }
-
 
 div .p_proy {
   font-size: 16px;
@@ -368,7 +370,7 @@ footer img {
     width: 180px;
   }
 
-  p.p_proy_icons{
+  p.p_proy_icons {
     margin-top: -1rem;
   }
 
@@ -388,7 +390,7 @@ footer img {
     height: 300px;
   }
 
-  #gallery figure{
+  #gallery figure {
     justify-items: center;
   }
 
@@ -420,7 +422,7 @@ footer img {
     margin-top: 0.2rem;
   }
 
-  div.div_img img.img_proy{
+  div.div_img img.img_proy {
     width: 200px;
   }
 
