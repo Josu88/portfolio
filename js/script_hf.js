@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //Funcion para cargar el contenido del html dentro del contenedor
 function loadHTML(elementId, filePath) {
   //fetch le utiliza para obtener el contenido de archivos distintos(header,footer)

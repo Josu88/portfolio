@@ -1,4 +1,6 @@
-    //Funcion para mostrar y ocultar el navegador
+    /*jshint esversion: 6 */
+    /*JavaScript para despelgar el menu de navegación cuando el tamaño de la pantalla es de movil o tablet */
+    //Funcion para mostrar y ocultar el barra de navegación(el nav)
     function showNavBar(){
         let navbarNav = document.getElementById("navbarNav");
     

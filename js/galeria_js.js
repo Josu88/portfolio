@@ -1,5 +1,10 @@
+/*jshint esversion: 6 */
+/* JavaScript para la galeria de imagenes del index */
+
+//Creamos la variables que usaremos y las inicializamos
 let currentIndex = 0;
 
+//Selecionamos los botones del dom de la galeria
 document.querySelector('.prev-button').addEventListener('click', () => {
     navigate(-1);
 });
@@ -8,6 +13,7 @@ document.querySelector('.next-button').addEventListener('click', () => {
     navigate(1);
 });
 
+//Funcion para que al pulsar los botones cambie de imagen
 function navigate(direction) {
     const galleryContainer = document.querySelector('.gallery-container');
     const totalImages = document.querySelectorAll('.gallery-item').length;
@@ -28,6 +34,7 @@ function startAutoplay(interval) {
     }, interval);
 }
 
+//Funcion para parar el avance automatico de las imagenes
 function stopAutoplay() {
     clearInterval(autoplayInterval);
 }
