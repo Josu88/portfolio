@@ -63,10 +63,6 @@ document
 
     //Si todos los campos son validos se puede evitar el formulario
     if (!isValid) {
-      error.textContent = "formulario enviado exitosamente";
-      // Cambia el color de fondo del div con id error
-      error.style.backgroundColor = "blue";
-    } else {
-      error.textContent = "";
+      alert("formulario enviado exitosamente");
     }
   });
