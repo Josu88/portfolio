@@ -23,7 +23,7 @@ document
 
     //Elegimos los elementos del dom que usaremos de la pagina contact
     let error = document.getElementById("error");
-    let nombre = document.getElementById("name").value.trim();
+    let nombre = document.getElementById("nombre").value.trim();
     let email = document.getElementById("email").value.trim();
     let mensaje = document.getElementById("mensaje").value.trim();
 
