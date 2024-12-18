@@ -38,13 +38,13 @@
         <!--Titulo h3 del formulario-->
         <h1 class="text-center mb-4">Contacto</h1>
         <!--Formulario de Contacto-->
-        <form action="php/enviar_correo.php" class="contact-form sepia">
+        <form action="php/enviar_correo.php" class="contact-form sepia" id="contact-form">
           <label for="nombre" class="form-label">Nombre</label><br />
           <input
             type="text"
             class="from-control"
             name="nombre"
-            id="name"
+            id="nombre"
             placeholder="Escribe tu nombre"
             required
           /><br />
@@ -77,5 +77,6 @@
     <!--Cargamos el script-->
     <script src="js/script_hf.js"></script>
     <script src="js/script_func.js"></script>
+    <script src="js/validar.js"></script>
   </body>
 </html>
